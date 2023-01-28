@@ -6,6 +6,8 @@ import CountryItem from "./CountryItem";
 const CountriesList = () => {
   const { countries, isLoading } = useContext(GlobalContext);
 
+  console.log(countries);
+
   return !isLoading ? (
     <section className="py-10 bg-VeryLightGray dark:bg-VeryDarkBlue">
       <div className="container mx-auto px-4">

@@ -9,7 +9,7 @@ const CountryItem = ({ country }) => {
     >
       <div className="overflow-hidden rounded-t-md">
         <img
-          src={flags.svg}
+          src={flags?.svg}
           alt={name}
           className="w-full aspect-[3.3/2] object-cover group-hover:scale-110 smooth"
         />
